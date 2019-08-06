@@ -6,7 +6,7 @@ end
 
 def reduce(source_array, starting_point=0, &block)
   # source_array.reduce(starting_point, &block)
-  if starting_point
+  if starting_point=0
     source_array.reduce(starting_point, &block)
   else 
     source_array.reduce(&block)
