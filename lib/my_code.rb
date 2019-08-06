@@ -4,7 +4,7 @@ def map(source_array, &block)
   source_array.map(&block)
 end
 
-def reduce(source_array, *starting_point, &block)
+def reduce(source_array, **starting_point, &block)
   # source_array.reduce(starting_point, &block)
   if starting_point = true 
     source_array.reduce(starting_point, &block)
